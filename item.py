@@ -15,3 +15,5 @@ class Item:
         return descricao
     def get_quantidade(self):
         return quantidade
+    def __str__(self):
+        return f"{self.__id}-{self.__descricao}-{self.__quantidade}"
